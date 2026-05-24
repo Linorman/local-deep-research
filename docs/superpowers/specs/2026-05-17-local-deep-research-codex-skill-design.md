@@ -185,4 +185,3 @@ Forward tests should ask a fresh Codex session to use the skill for realistic pr
 - The skill clearly distinguishes stable first-phase behavior from the experimental bridge.
 - The skill includes enough interface reference material for another Codex session to use LDR without rereading the whole repository.
 - The skill validates successfully and has at least one smoke-tested workflow.
-
