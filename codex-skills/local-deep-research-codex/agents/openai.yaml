@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Deep Research Codex"
+  short_description: "Use LDR retrieval with Codex reports"
+  default_prompt: "Use WebUI-like Codex mode: discover LDR engines and strategies, retrieve sources with LDR where possible, maintain a source ledger and current-knowledge notes, then synthesize the final report with Codex."

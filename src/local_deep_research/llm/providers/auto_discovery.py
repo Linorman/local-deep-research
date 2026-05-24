@@ -126,6 +126,14 @@ class ProviderDiscovery:
                         and obj is not OpenAICompatibleProvider
                         and obj is not BaseLLMProvider
                     ):
+                        is_discoverable = getattr(
+                            obj, "is_discoverable", None
+                        )
+                        if callable(is_discoverable) and not is_discoverable():
+                            logger.info(
+                                f"Skipping provider {name}: not discoverable"
+                            )
+                            continue
                         # Found a provider class
                         provider_info = ProviderInfo(obj)
                         self._providers[provider_info.provider_key] = (

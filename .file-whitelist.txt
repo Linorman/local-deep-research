@@ -52,6 +52,7 @@
 ^examples/.*/docker-compose\.yml$
 ^community_benchmark_results/.*\.yaml$
 ^cookiecutter-docker/.*\.yml$
+^codex-skills/.*\.(yml|yaml)$
 
 # ---------------------------------------------------------------------------
 # Shell scripts — path-scoped

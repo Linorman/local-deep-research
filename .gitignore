@@ -19,6 +19,8 @@ src/local_deep_research/web/static/css/themes.css
 !community_benchmark_results/**/*.yaml
 !cookiecutter-docker/**/*.yml
 !examples/elasticsearch/docker-compose.yml
+!codex-skills/**/*.yaml
+!codex-skills/**/*.yml
 
 # Shell scripts — path-scoped (.github/ and .pre-commit-hooks/ whitelisted separately)
 !scripts/**/*.sh
@@ -312,6 +314,7 @@ tests/ui_tests/mobile/*-screenshots/
 !docs/**/*.md
 !examples/**/*.md
 !cookiecutter-docker/**/*.md
+!codex-skills/**/*.md
 # towncrier news fragments. The directory itself must be re-allowed
 # explicitly because the `.d` extension means it gets caught by the
 # `/*.*` root deny on line 38, and git can't re-include files inside
