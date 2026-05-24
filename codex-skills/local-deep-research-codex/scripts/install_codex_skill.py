@@ -69,7 +69,7 @@ def is_link_like(path: Path) -> bool:
 
 
 def emit(payload: dict[str, object]) -> None:
-    print(json.dumps(payload, indent=2, sort_keys=True))
+    print(json.dumps(payload, indent=2, sort_keys=True))  # noqa: T201
 
 
 def main() -> int:

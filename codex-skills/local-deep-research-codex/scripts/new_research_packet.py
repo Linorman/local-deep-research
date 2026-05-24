@@ -124,7 +124,7 @@ def main() -> int:
         build_packet(args.query, args.mode, args.engine, args.strategy),
         encoding="utf-8",
     )
-    print(str(output.resolve()))
+    print(str(output.resolve()))  # noqa: T201
     return 0
 
 
